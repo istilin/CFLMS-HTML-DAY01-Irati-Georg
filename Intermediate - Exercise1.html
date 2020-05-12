@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <title> Contact form </title>
+</head>
+<body>
+  <form action="action_page.php">
+    First name:<br>
+    <input type="text" name="firstname" placeholder="First name"><br>
+    Last name:<br>
+    <input type="text" name="lastname"  placeholder="Last Name"><br/>
+    <br/>
+    Select gender: <br/>
+    <input type="radio" name="gender" value="male" checked> Male <br/>
+    <input type="radio" name="gender" value="female"> Female <br/>
+    <input type="radio" name="gender" value="other"> Other <br/>
+    <input type="radio" name="gender" value="prefer not to answer"> Prefer not to answer <br/>
+    <br/>
+    Phone number: <br/>
+   <select name="Country Code">                                      
+      <option value="Austria (+43)">Austria (+43)</option>
+      <option value="UK (+44)" selected>UK (+44)</option>                                
+      <option value="Spain (+34)">Spain (+34)</option>
+      <option value="Germany (+49)">Germany (+49)</option>
+    <br>
+    <input type="text" name="phone number"  placeholder="Phone number"><br/>
+    e-mail address:<br>
+    <input type="text" name="lastname"  placeholder="e-mail address"><br/>
+    <br/>
+    </select>
+    Password:<br>
+    <input type="password" name="password"  placeholder="Password"><br/>
+
+
+
+    Motivation letter: <br/>
+    <textarea name="message" rows="10" cols="30">Message of application.
+    </textarea>
+    <br/>
+    <br/>
+    <input type="submit" value="Submit your data">
+  </form>
+</body>
+</html>
